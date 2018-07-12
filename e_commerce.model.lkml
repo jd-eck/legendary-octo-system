@@ -22,7 +22,8 @@ explore: events {
 }
 
 
-explore: order_items {
+explore: order_item1 {
+  from: order_items
 
   join: orders {
     type: left_outer
