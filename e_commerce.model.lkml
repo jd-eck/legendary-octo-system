@@ -22,7 +22,7 @@ explore: events {
 }
 
 
-explore: order_item1 {
+explore: order_items {
   from: order_items
 
   join: orders {
